@@ -16,6 +16,9 @@
 - (void)didReceiveMemoryWarning
 {    [super didReceiveMemoryWarning];   }
 
+//the buttons use a default iOS system font
+//but it is possible to install a custom font (not this project)
+
 - (IBAction)showDialog:(id)sender
 {
     UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Self Closing Alert" message:@"This dialog will self destruct in 2 seconds." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
