@@ -24,7 +24,7 @@
     
     NSLog(@"alert shown");
     
-    [NSTimer scheduledTimerWithTimeInterval:1.8 target:self selector:@selector(dismissTimedDialog:) userInfo:av repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:2.3 target:self selector:@selector(dismissTimedDialog:) userInfo:av repeats:NO];
     //NSTimer passes itself as parameter to the selector
     //so, store a ref to the alert view into the userInfo
 }
@@ -37,7 +37,7 @@
     
     NSLog(@"sheet shown");
     
-    [NSTimer scheduledTimerWithTimeInterval:1.8 target:self selector:@selector(dismissTimedSheet:) userInfo:as repeats:NO];
+    [NSTimer scheduledTimerWithTimeInterval:2.3 target:self selector:@selector(dismissTimedSheet:) userInfo:as repeats:NO];
     //NSTimer passes itself as parameter to the selector
     //so, store a ref to the alert view into the userInfo
 }
@@ -57,7 +57,6 @@
     //get the userInfo object (the alertview) to tell it to close
     //make sure to cast it as  (UIActionSheet *) or compiler has no idea what userInfo is
 }
-
 
 
 @end
