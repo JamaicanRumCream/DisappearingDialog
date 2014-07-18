@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356FAE2C1979E86C000E0AB5 /* DisappearingDialog-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA6254CE182AC951005BCCD9 /* DisappearingDialog-Info.plist */; };
+		356FAE2F1979E8CA000E0AB5 /* ViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356FAE2D1979E8CA000E0AB5 /* ViewController~ipad.xib */; };
 		EA6254C7182AC951005BCCD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6254C6182AC951005BCCD9 /* UIKit.framework */; };
 		EA6254C9182AC951005BCCD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6254C8182AC951005BCCD9 /* Foundation.framework */; };
 		EA6254CB182AC951005BCCD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6254CA182AC951005BCCD9 /* CoreGraphics.framework */; };
@@ -21,14 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		356FAE2E1979E8CA000E0AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/ViewController~ipad.xib"; sourceTree = "<group>"; };
 		EA6254C3182AC951005BCCD9 /* DisappearingDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisappearingDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6254C6182AC951005BCCD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EA6254C8182AC951005BCCD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA6254CA182AC951005BCCD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EA6254CE182AC951005BCCD9 /* DisappearingDialog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DisappearingDialog-Info.plist"; sourceTree = "<group>"; };
+		EA6254CE182AC951005BCCD9 /* DisappearingDialog-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DisappearingDialog-Info.plist"; sourceTree = "<group>"; };
 		EA6254D0182AC951005BCCD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EA6254D2182AC951005BCCD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA6254D4182AC951005BCCD9 /* DisappearingDialog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DisappearingDialog-Prefix.pch"; sourceTree = "<group>"; };
+		EA6254D2182AC951005BCCD9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA6254D4182AC951005BCCD9 /* DisappearingDialog-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DisappearingDialog-Prefix.pch"; sourceTree = "<group>"; };
 		EA6254D5182AC951005BCCD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA6254D6182AC951005BCCD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EA6254D8182AC951005BCCD9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 				EA6254DE182AC951005BCCD9 /* ViewController.h */,
 				EA6254DF182AC951005BCCD9 /* ViewController.m */,
 				EA6254E1182AC951005BCCD9 /* ViewController.xib */,
+				356FAE2D1979E8CA000E0AB5 /* ViewController~ipad.xib */,
 				EA6254CD182AC951005BCCD9 /* Supporting Files */,
 			);
 			path = DisappearingDialog;
@@ -159,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA6254D1182AC951005BCCD9 /* InfoPlist.strings in Resources */,
+				356FAE2F1979E8CA000E0AB5 /* ViewController~ipad.xib in Resources */,
+				356FAE2C1979E86C000E0AB5 /* DisappearingDialog-Info.plist in Resources */,
 				EA6254D9182AC951005BCCD9 /* Default.png in Resources */,
 				EA6254DB182AC951005BCCD9 /* Default@2x.png in Resources */,
 				EA6254DD182AC951005BCCD9 /* Default-568h@2x.png in Resources */,
@@ -182,6 +188,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		356FAE2D1979E8CA000E0AB5 /* ViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356FAE2E1979E8CA000E0AB5 /* en */,
+			);
+			name = "ViewController~ipad.xib";
+			sourceTree = "<group>";
+		};
 		EA6254CF182AC951005BCCD9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -263,7 +277,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DisappearingDialog/DisappearingDialog-Prefix.pch";
 				INFOPLIST_FILE = "DisappearingDialog/DisappearingDialog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,7 +290,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DisappearingDialog/DisappearingDialog-Prefix.pch";
 				INFOPLIST_FILE = "DisappearingDialog/DisappearingDialog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +316,7 @@
 				EA6254E8182AC951005BCCD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
